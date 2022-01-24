@@ -4,7 +4,7 @@ const taskContainer = document.querySelector(".task-container");
 
 // Global Storage --> which will be store the images and details in the array
 
-const globalStore = [];  //it is an array so push will work
+let globalStore = [];  //it is an array so push will work
 console.log(taskContainer);
 
 const generateNewCard = (taskData) => {
